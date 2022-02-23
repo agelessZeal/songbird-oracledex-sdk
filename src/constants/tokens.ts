@@ -132,4 +132,5 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
+  [ChainId.SGB]: new Token(ChainId.SGB, WNATIVE_ADDRESS[ChainId.SGB], 18, 'WSGB', 'Wrapped Songbird'),
 }
